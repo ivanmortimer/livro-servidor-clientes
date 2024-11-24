@@ -1,0 +1,58 @@
+/*
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    min-height: calc(100vh - 56px); /* Ocupa a altura total da página menos a altura da navbar
+    padding: 20px 50px 20px 50px;
+    text-align: left; /* Centraliza o texto
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto; /* ou 'fixed' para largura fixa
+}
+*/
+
+
+.container {
+    padding: 20px;
+  }
+  
+  .principal {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .tabela {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto; /* ou 'fixed', dependendo da sua necessidade */
+  }
+  
+  .cabecalhoTabela {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .cabecalhoTabela th {
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .tabelaCorpo {
+    background-color: #f9f9f9;
+  }
+  
