@@ -15,7 +15,7 @@
 
 .content-container {
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   min-height: calc(100vh - 56px); /* Ocupa a altura total da página menos a altura da navbar */
   padding: 20px 50px 20px 50px;

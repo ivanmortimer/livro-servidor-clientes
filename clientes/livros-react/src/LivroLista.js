@@ -57,7 +57,7 @@ function LivroLista() {
     };
 
     return (
-        <main>
+        <main style={{width: "100%"}}>
             <h1 className="text-start">Catálogo de Livros</h1>
             <table className="table table-striped table-hover text-start">
                 <thead className="table table-dark table-hover">
